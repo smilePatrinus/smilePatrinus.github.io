@@ -1,30 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>MOON</h1>
-    <p >
-        MOON is BEAUTIFUL
-        <br>
-        What?
-        <br>
-        If this is just DREAM.
-        <br>
-        Please.
-        <br>
-        Don't wake up.  
-        
-    </p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Full_Moon_Luc_Viatour.jpg/1200px-Full_Moon_Luc_Viatour.jpg" alt="The Beautiful Moon">
-    <p>
-        from: <a href="https://zh.wikipedia.org/zh-tw/%E6%9C%88%E7%90%83"></a>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>自我介紹</title>
+    <link rel="stylesheet" href="introduction/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <div class="selfie">
+          <img class="selfieImage" src="introduction/image/selfie2.jpg">
+        </div>
+        <div class="href">
+          <a class="icon" href="https://www.facebook.com/steven.yeh.543" target="_blank">
+            <img src="introduction/image/facebook.svg" width="100" height="100">
+          </a>
+          <a class="icon" href="https://www.instagram.com/1010.0110.0110/" target="_blank">
+            <img src="introduction/image/instagram.svg" width="100" height="100">
+          </a>
+          <a  class="icon" href="https://github.com/qaz5823091" target="_blank">
+            <img src="introduction/image/github.svg" width="100" height="100">
+          </a>
+        </div>
+      </div>
+      <div class="text">
+        <h2>簡介</h2>
+        <p>
+          我叫鐘元廷，彰化縣人，目前就讀國立彰化一中一年級。
+          興趣是創作，偶爾一時興起就會寫首詩。
+        </p>
+        <h2>專長</h2>
+        <p>・些許 近體詩</p>
+        <p>・些許 今體詩</p>
+        <p>・些許 詞</p>
+        <p>・些許 C++</p>
+        <p>・些許 愛</p>
+        <p>・正在學 散文</p>
+        <h2>志向</h2>
+        <p>
+          高中開始學習 C++ ，從那時候開始就對資訊科學非常有興趣，於是展開我的自學生活！
+          未來想走創作方面，正在努力學習中！
+        </p>
+      </div>
+    </div>
+    <script type="text/javascript">
+    window.onscroll = function() {scrollFunction()};
 
-    </p>
-</body>
+    function scrollFunction() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        document.body.style.background = "white";
+      }
+      else {
+        document.body.style.background = "black";
+      }
+    }
+
+    </script>
+  </body>
 </html>
