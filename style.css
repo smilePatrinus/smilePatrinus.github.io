@@ -1,11 +1,28 @@
-p {
-color:aliceblue;
-
-}
-body {
-    background-color: black;
-}
-h2 {
-color:white;
-}
-
+.word {
+    color:aliceblue;
+    
+    }
+ #thing1 {
+     color: red;
+ }   
+ #thing2 {
+     color: sandybrown;
+ }
+ #thing3 {
+     color: yellow;
+ }
+ #thing4{
+     color: greenyellow;
+ }
+ #thing5{
+     color: turquoise;
+ }
+ #thing6{
+     color: violet;
+ }
+    body {
+        background-color: black;
+    }
+    h2 {
+    color:white;
+    }
