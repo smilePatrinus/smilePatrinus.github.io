@@ -26,3 +26,9 @@
     h2 {
     color:white;
     }
+    .thing {
+        width: 50px;
+    }
+    body {
+        margin: 10% 30% 30% 10px;
+    }
