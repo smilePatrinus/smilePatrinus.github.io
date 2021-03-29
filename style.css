@@ -9,3 +9,12 @@
     .thing {
         font-size: 25px;
     }
+
+body {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+    background: white;
+    user-select: none;
+    transition: 1s;
+}
