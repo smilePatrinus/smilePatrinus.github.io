@@ -1,34 +1,11 @@
 .word {
-    color:aliceblue;
+    color:white;
     
-    }
- #thing1 {
-     color: red;
- }   
- #thing2 {
-     color: sandybrown;
- }
- #thing3 {
-     color: yellow;
- }
- #thing4{
-     color: greenyellow;
- }
- #thing5{
-     color: turquoise;
- }
- #thing6{
-     color: violet;
- }
-    body {
-        background-color: black;
     }
     h2 {
     color:white;
+        font-size: 40px;
     }
     .thing {
-        width: 50px;
-    }
-    body {
-        margin: 10% 30% 30% 10px;
+        font-size: 25px;
     }
