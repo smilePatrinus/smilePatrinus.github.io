@@ -18,6 +18,12 @@ header {
     text-align: center;
     color:black;
   }
+  #founder:hover {
+    background-color: rgb(95, 95, 201);
+    color: aliceblue;
+  }{
+
+  }
   .buttonAdjust p{
     color: black;
     font-size: 30px;
