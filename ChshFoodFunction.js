@@ -1,0 +1,3 @@
+function Duckthis() {
+    alert("W");
+  }
