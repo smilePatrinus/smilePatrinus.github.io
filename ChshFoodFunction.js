@@ -4,7 +4,6 @@ const foodImg = [
 ];
 let randomNumber = 0;
 function Duckthis() {
-  /*  alert("製作中，敬請期待");*/
   randomNumber = Math.floor(Math.random() * 2);
   document.getElementById("food").innerHTML = foodName[randomNumber];
   document.getElementById("Foodimg").src = foodImg[randomNumber];
