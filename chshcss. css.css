@@ -29,9 +29,6 @@ header {
     font-size: 30px;
 
   }
-  #food{
-
-  }
   ul {
     list-style-type: none;
     margin: 0;
@@ -81,4 +78,9 @@ header {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  .clicksName p{
+    color: black;
+  display: inline-block;
   }
