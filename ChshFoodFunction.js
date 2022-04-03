@@ -48,7 +48,8 @@ foodAddresswww[7]="https://goo.gl/maps/2CNoQGzbGpCZkjwn7";
 foodAddresswww[8]="https://goo.gl/maps/yPEA2sgiTwYu2cKAA";
 foodAddresswww[9]="https://www.moeacgs.gov.tw/";
 
-let randomNumber = 0;
+let randomNumber = 0 ;
+let randomTemp = 0 ;
 let clickTimes =0 ;
 function clickTime() {
   clickTimes++;
@@ -60,10 +61,24 @@ function Duckthis() {
   randomNumber = Math.floor(Math.random() * 9);
   clickTimes++;
   if(clickTimes>10){ 
-  randomNumber = 9 ; }
+  randomNumber = 9 ; 
   document.getElementById("food").innerHTML = foodName[randomNumber];
   document.getElementById("address").innerHTML = foodAddress[randomNumber];
   document.getElementById("wwwAddress").href = foodAddresswww[randomNumber];
   document.getElementById("Foodimg").src = foodImg[randomNumber];
   document.getElementById("clicks").innerHTML = clickTimes;
+}
+  else if(randomNumber == randomTemp)
+  {
+    clickTimes-=1;
+    Duckthis();
+  
+  }
+  else{
+  document.getElementById("food").innerHTML = foodName[randomNumber];
+  document.getElementById("address").innerHTML = foodAddress[randomNumber];
+  document.getElementById("wwwAddress").href = foodAddresswww[randomNumber];
+  document.getElementById("Foodimg").src = foodImg[randomNumber];
+  document.getElementById("clicks").innerHTML = clickTimes;
+  }
   }
