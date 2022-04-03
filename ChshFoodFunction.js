@@ -53,21 +53,21 @@ let randomTemp = 0 ;
 let clickTimes =0 ;
 function clickTime() {
   clickTimes++;
-  if(clickTimes>10)
-  randomNumber = 9 ;
+  if(clickTimes>50)
+    randomNumber = 9 ;
 }
 function Duckthis() {
   /*  alert("製作中，敬請期待");*/
   randomNumber = Math.floor(Math.random() * 9);
   clickTimes++;
-  if(clickTimes>10){ 
-  randomNumber = 9 ; 
-  document.getElementById("food").innerHTML = foodName[randomNumber];
-  document.getElementById("address").innerHTML = foodAddress[randomNumber];
-  document.getElementById("wwwAddress").href = foodAddresswww[randomNumber];
-  document.getElementById("Foodimg").src = foodImg[randomNumber];
-  document.getElementById("clicks").innerHTML = clickTimes;
-}
+  if(clickTimes>50){ 
+    randomNumber = 9 ; 
+    document.getElementById("food").innerHTML = foodName[randomNumber];
+    document.getElementById("address").innerHTML = foodAddress[randomNumber];
+    document.getElementById("wwwAddress").href = foodAddresswww[randomNumber];
+    document.getElementById("Foodimg").src = foodImg[randomNumber];
+    document.getElementById("clicks").innerHTML = clickTimes;
+  }
   else if(randomNumber == randomTemp)
   {
     clickTimes-=1;
@@ -75,10 +75,10 @@ function Duckthis() {
   
   }
   else{
-  document.getElementById("food").innerHTML = foodName[randomNumber];
-  document.getElementById("address").innerHTML = foodAddress[randomNumber];
-  document.getElementById("wwwAddress").href = foodAddresswww[randomNumber];
-  document.getElementById("Foodimg").src = foodImg[randomNumber];
-  document.getElementById("clicks").innerHTML = clickTimes;
-  }
+    document.getElementById("food").innerHTML = foodName[randomNumber];
+    document.getElementById("address").innerHTML = foodAddress[randomNumber];
+    document.getElementById("wwwAddress").href = foodAddresswww[randomNumber];
+    document.getElementById("Foodimg").src = foodImg[randomNumber];
+    document.getElementById("clicks").innerHTML = clickTimes;
+    }
   }
