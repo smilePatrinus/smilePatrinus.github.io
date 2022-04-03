@@ -1,9 +1,17 @@
 header {
     background-color:gray;
+    background-image:url(https://github.com/smilePatrinus/smilePatrinus.github.io/blob/main/CHSHFOOD2%20TITLE.png?raw=true);
     padding: 30px;
     text-align: center;
     font-size: 35px;
     color: white;
+  }
+  h2 {
+    color: #ebb786c2;
+    text-shadow: 2px 2px #8B4513;
+  }
+  body {
+    background-color: beige;
   }
   footer {
     background-color:gray;
@@ -83,4 +91,12 @@ header {
   .clicksName p{
     color: black;
   display: inline-block;
+  }
+  
+  #food {
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    padding: 5px;
   }
