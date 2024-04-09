@@ -48,9 +48,9 @@ foodAddresswww[7]="https://goo.gl/maps/2CNoQGzbGpCZkjwn7";
 foodAddresswww[8]="https://goo.gl/maps/yPEA2sgiTwYu2cKAA";
 foodAddresswww[9]="https://www.moeacgs.gov.tw/";
 
-let randomNumber = 0 ;
-let randomTemp = 0 ;
-let clickTimes =0 ;
+let randomNumber = -1 ;
+let randomTemp = -1 ;
+let clickTimes =-1 ;
 function clickTime() {
   clickTimes++;
   if(clickTimes>50)
